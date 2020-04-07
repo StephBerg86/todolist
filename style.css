@@ -106,8 +106,10 @@ select {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  outline: none;
-  border: none;
+  outline: 0;
+  box-shadow: none;
+  border: 0;
+  background-image: none;
 }
 
 .select {
@@ -118,8 +120,9 @@ select {
 
 select {
   color: #7bb9cc;
-  width: 10rem;
+  font-family: "Poppins", sans-serif;
   cursor: pointer;
+  width: 12rem;
   padding: 1rem;
 }
 
@@ -130,6 +133,7 @@ select {
   top: 0;
   right: 0;
   padding: 1rem;
+  cursor: pointer;
   pointer-events: none;
   transition: all 0.3s ease;
 }
